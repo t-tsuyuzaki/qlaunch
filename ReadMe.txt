@@ -1,67 +1,8 @@
-================================================================================
-    MICROSOFT FOUNDATION CLASS ƒ‰ƒCƒuƒ‰ƒŠ : qlaunch ƒvƒƒWƒFƒNƒg‚ÌŠT—v
-===============================================================================
+qlaunchã¯ï¼ŒDOSã‹ã¤ãƒ‘ãƒ©ãƒ¬ãƒ«æ™‚ä»£ã®altera quartus programmerã‚’Windowsã‹ã‚‰GUIã§ï¼Œã‹ã¤é‡ç”£ç›®çš„ã®ãƒœã‚¿ãƒ³1å€‹ã§ã‚µã‚¯ã‚µã‚¯åˆ©ç”¨ã™ã‚‹ãŸã‚ã®ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã§ã™ï¼Ž
 
+2005å¹´ã«ã¨ã‚ã‚‹ä¼æ¥­ã‹ã‚‰ä¾é ¼ã•ã‚Œã¦ä½œæˆã—ã¾ã—ãŸãŒï¼Œãã®ä¾é ¼ã¯ã†ã‚„ã‚€ã‚„ã®ã¾ã¾ç„¡ã‹ã£ãŸäº‹ã«ãªã‚Šãã®å¾Œã©ã†ãªã£ãŸã®ã‹ã‚‚åˆ¤ã‚Šã¾ã›ã‚“ï¼Ž
+å¥‘ç´„æ›¸ã‚’äº¤ã‚ã—ã¦ã‹ã‚‰ä½œã‚Œã°è‰¯ã„ã‚‚ã®ã‚’ï¼Œå½“æ™‚è‹¥é€ ã ã£ãŸè‡ªåˆ†ã¯ãã‚“ãªäº‹ã‚’ã›ãšå€‹äººä¿¡ç”¨ã ã‘ã§é€²ã‚ã¦ãŸã®ãŒã™ã¹ã¦ã®è¦å› ã§ã™ã­ï¼Ž
 
+ãã‚Œã¯ã¨ã‚‚ã‹ãå½“æ™‚ã®è‡ªåˆ†ã¨ã—ã¦ã¯ãªã‹ãªã‹ã®ç¿’ä½œï¼ˆDOSãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å‘¼ã³å‡ºã—ãŸã‚Šå®Ÿè¡Œçµæžœã‚’èª­ã¿å–ã£ã¦åå¿œã—ãŸã‚Šï¼‰ã§ã—ãŸã®ã§ï¼Œ
+githubã‚’æœ¬æ ¼çš„ã«ä½¿ã„å§‹ã‚ã‚‹æ„å‘³ã§ã‚‚ä»Šæ›´èª°ã‚‚ä½¿ã‚ãªã„æ„å‘³ã®ç„¡ã„ã‚‚ã®ã§ã™ãŒMITãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã§å…¬é–‹ã—ã¦ã¿ã‚‹ãƒ†ã‚¹ãƒˆã§ã™ï¼Ž
 
-    ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒEƒBƒU[ƒh‚ªì¬‚µ‚½ qlaunch ‚É‚Í Microsoft 
-    Foundation Classes ‚ÌŠî–{“I‚ÈŽg‚¢•û‚ªŽ¦‚³‚ê‚Ä‚¢‚Ü‚·BƒAƒvƒŠƒP[ƒVƒ‡ƒ“ì¬‚Ì‚Ð‚ÈŒ^‚Æ‚µ‚Ä‚¨Žg‚¢
-    ‚­‚¾‚³‚¢B
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚É‚Í qlaunch ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ð\¬‚µ‚Ä‚¢‚éŠeƒtƒ@ƒCƒ‹‚ÌŠT—và–¾‚ªŠÜ
-    ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-
-qlaunch.vcproj
-    ‚±‚ê‚ÍƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒEƒBƒU[ƒh‚Å¶¬‚³‚ê‚½ VC++ ƒvƒƒWƒFƒNƒg‚ÌƒƒCƒ“ ƒvƒƒWƒFƒNƒg ƒtƒ@ƒC	    ƒ‹‚Å‚·Bƒtƒ@ƒCƒ‹‚ª¶¬‚³‚ê‚½ Visual C++ ‚Ìƒo[ƒWƒ‡ƒ“î•ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B‚Ü‚½AƒAƒvƒŠƒP[ƒV	    ƒ‡ƒ“ ƒEƒBƒU[ƒh‚Å‘I‘ð‚µ‚½ƒvƒ‰ƒbƒgƒtƒH[ƒ€A\¬‚¨‚æ‚ÑƒvƒƒWƒFƒNƒg‹@”\‚ÉŠÖ‚·‚éî•ñ‚àŠÜ‚Ü‚ê		    ‚Ä‚¢‚Ü‚·B
-
-
-qlaunch.h
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚ÍƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì’†S‚Æ‚È‚éƒwƒbƒ_[ ƒtƒ@ƒCƒ‹‚Å‚·B‚±‚Ìƒtƒ@ƒCƒ‹‚É‚ÍAResource.h 
-    ‚àŠÜ‚ÝA‘¼‚ÌƒvƒƒWƒFƒNƒg“Á’è‚Ìƒwƒbƒ_‚ªŠÜ‚Ü‚ê‚Ä‚¢‚ÄACqlaunchApp ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒNƒ‰ƒX
-    ‚ÌéŒ¾‚ð‚µ‚Ü‚·B
-
-qlaunch.cpp
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚Í CqlaunchApp ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒNƒ‰ƒX‚ðŠÜ‚ÞƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì’†S‚Æ‚È‚éƒ\[
-    ƒXƒtƒ@ƒCƒ‹‚Å‚·B
-
-qlaunch.rc
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚ÍƒvƒƒOƒ‰ƒ€‚ªŽg—p‚·‚é Microsoft Windows ‚ÌƒŠƒ\[ƒX‚ð—ñ‹“‚µ‚Ü‚·B‚±‚Ìƒtƒ@ƒCƒ‹‚Í RES 
-    ƒTƒuƒfƒBƒŒƒNƒgƒŠ‚É•Û‘¶‚³‚ê‚Ä‚¢‚éƒAƒCƒRƒ“Aƒrƒbƒgƒ}ƒbƒvAƒJ[ƒ\ƒ‹‚ðŠÜ‚Ý‚Ü‚·B‚±‚Ìƒtƒ@ƒCƒ‹‚ÍA
-    Microsoft Visual C++ ‚Å’¼Ú•ÒW‰Â”\‚Å‚·BƒvƒƒWƒFƒNƒg ƒŠƒ\[ƒX‚Í 1041 ‚É‚ ‚è‚Ü‚·B
-
-res\qlaunch.ico
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚ÍAƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌƒAƒCƒRƒ“‚Æ‚µ‚ÄŽg—p‚³‚ê‚éƒAƒCƒRƒ“ƒtƒ@ƒCƒ‹‚Å‚·B‚±‚ÌƒAƒCƒRƒ“‚Í
-    ƒŠƒ\[ƒX ƒtƒ@ƒCƒ‹ qlaunch.rc ‚É‚æ‚Á‚ÄƒCƒ“ƒNƒ‹[ƒh‚³‚ê‚Ü‚·B
-
-res\qlaunch.rc2
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚Í Microsoft Visual C++ ‚É‚æ‚Á‚Ä•ÒW‚³‚ê‚È‚¢ƒŠƒ\[ƒX‚ðŠÜ‚ñ‚Å‚¢‚Ü‚·B‚±‚Ìƒtƒ@ƒCƒ‹‚É
-    ƒŠƒ\[ƒX ƒGƒfƒBƒ^‚Å•ÒW‚³‚ê‚È‚¢‚·‚×‚Ä‚ÌƒŠƒ\[ƒX‚ð‹Lq‚µ‚Ä‚­‚¾‚³‚¢B
-
-/////////////////////////////////////////////////////////////////////////////
-
-ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒEƒBƒU[ƒh‚Í 1 ‚Â‚Ìƒ_ƒCƒAƒƒO ƒNƒ‰ƒX‚ðì¬‚µ‚Ü‚· :
-qlaunchDlg.h, qlaunchDlg.cpp - the dialog
-    T‚±‚ê‚ç‚Ìƒtƒ@ƒCƒ‹‚Í CqlaunchDlg ƒNƒ‰ƒX‚ðŠÜ‚Ý‚Ü‚·B‚±‚ÌƒNƒ‰ƒX‚ÍƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì 
-    ƒƒCƒ“ ƒ_ƒCƒAƒƒO‚Ì“®ì‚ð’è‹`‚µ‚Ü‚·Bƒ_ƒCƒAƒƒO ƒeƒ“ƒvƒŒ[ƒg‚Í Microsoft Visual C++ ‚Å•ÒW 
-    ‰Â”\‚È qlaunch.rc ‚ÉŠÜ‚Ü‚ê‚Ü‚·B
-/////////////////////////////////////////////////////////////////////////////
-
-‚»‚Ì‘¼‚Ì•W€ƒtƒ@ƒCƒ‹ :
-
-StdAfx.h, StdAfx.cpp
-    ‚±‚ê‚ç‚Ìƒtƒ@ƒCƒ‹‚ÍŠù‚ÉƒRƒ“ƒpƒCƒ‹‚³‚ê‚½ƒwƒbƒ_[ ƒtƒ@ƒCƒ‹ (PCH) qlaunch.pch ‚âŠù‚ÉƒRƒ“ 
-    ƒpƒCƒ‹‚³‚ê‚½Œ^‚Ìƒtƒ@ƒCƒ‹ StdAfx.obj ‚ðƒrƒ‹ƒh‚·‚é‚½‚ß‚ÉŽg‚í‚ê‚éƒtƒ@ƒCƒ‹‚Å‚·B
-
-Resource.h
-    ‚±‚Ìƒtƒ@ƒCƒ‹‚ÍV‹KƒŠƒ\[ƒX ID ‚ð’è‹`‚·‚é•W€ƒwƒbƒ_[ ƒtƒ@ƒCƒ‹‚Å‚·BMicrosoft Visual C++ ‚Í‚±‚Ì 
-    ƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚ÆXV‚ðs‚¢‚Ü‚·B
-
-/////////////////////////////////////////////////////////////////////////////
-
-‚»‚Ì‘¼‚Ì’ˆÓ :
-
-ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒEƒBƒU[ƒh‚Í "TODO:" ‚ÅŽn‚Ü‚éƒRƒƒ“ƒg‚ðŽg—p‚µ‚ÄA’Ç‰Á‚µ‚½‚èƒJƒXƒ^ƒCƒY‚Ì•K—v‚È 
-    ƒ\[ƒX ƒR[ƒh‚Ì•”•ª‚ðŽ¦‚µ‚Ü‚·B
-
-ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Å‹¤—L DLL “à‚Å MFC ‚ðŽg—p‚·‚éê‡‚âAƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ªƒIƒyƒŒ[ƒeƒBƒ“ƒO ƒVƒXƒeƒ€‚ÅŒ»ÝŽg—p‚µ‚Ä‚¢‚éŒ¾ŒêˆÈŠO‚ÌŒ¾Œê‚ðŽg—p‚µ‚Ä‚¢‚éê‡‚ÍAWin\System ƒfƒBƒŒƒNƒgƒŠ‚É‚ ‚é Microsoft Visual C++ CD-ROM ‚©‚çAƒ[ƒJƒ‰ƒCƒY‚³‚ê‚½ƒŠƒ\[ƒX‚É‘Î‰ž‚·‚é MFC70XXX.DLL ‚ð system ‚Ü‚½‚Í system32 ƒfƒBƒŒƒNƒgƒŠ‚ÉƒRƒs[‚µ‚ÄAƒtƒ@ƒCƒ‹–¼‚ð MFCLOC.DLL ‚É‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B("XXX" ‚ÍŒ¾Œê‚ÌÈ—ªŒ`‚ðŽ¦‚µ‚Ü‚·B—á‚¦‚ÎAMFC70JPN.DLL ‚Í“ú–{Œê‚É–|–ó‚³‚ê‚½ƒŠƒ\[ƒX‚ðŠÜ‚Ý‚Ü‚·B) ‚±‚Ì—á‚ð–³Ž‹‚·‚é‚ÆƒAƒvƒŠƒP[ƒVƒ‡ƒ““à‚Ì‚¢‚­‚Â‚©‚Ì UI —v‘f‚ÍƒIƒyƒŒ[ƒeƒBƒ“ƒO ƒVƒXƒeƒ€‚ÌŒ¾Œê‚Ì‚Ü‚ÜŽc‚è‚Ü‚·B
-
-/////////////////////////////////////////////////////////////////////////////
