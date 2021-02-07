@@ -1,0 +1,263 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#include ""res\\qlaunch.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // 標準コンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\qlaunch.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 162, 39
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "バージョン情報 qlaunch"
+FONT 9, "MS UI Gothic", 0, 0, 0x1
+BEGIN
+    LTEXT           "qlaunch Version 1.0",IDC_STATIC,7,7,58,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005 saya",IDC_STATIC,7,21,72,8
+    DEFPUSHBUTTON   "OK",IDOK,105,16,50,16,WS_GROUP
+END
+
+IDD_QLAUNCH_DIALOG DIALOGEX 0, 0, 297, 290
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE | WS_EX_APPWINDOW
+CAPTION "qlaunch"
+FONT 9, "MS UI Gothic", 0, 0, 0x1
+BEGIN
+    LTEXT           "DEVICE選択",IDC_STATIC,7,10,38,8
+    COMBOBOX        IDC_COMBO1,7,23,106,66,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ダウンロードファイル選択",IDC_STATIC,114,10,66,8
+    EDITTEXT        IDC_EDIT1,115,23,175,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "参照",IDC_BUTTON1,249,7,41,14
+    LTEXT           "MODE",IDC_STATIC,7,44,19,8
+    LTEXT           "ダウンロードケーブル",IDC_STATIC,116,44,54,8
+    EDITTEXT        IDC_EDIT2,7,55,106,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT3,115,55,175,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "対象デバイス",IDC_STATIC,8,77,36,8
+    EDITTEXT        IDC_EDIT4,7,86,283,39,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "ダウンロードファイル名",IDC_STATIC,7,131,59,8
+    EDITTEXT        IDC_EDIT5,7,141,283,39,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "ダウンロード実行",IDC_BUTTON2,7,187,178,52
+    PUSHBUTTON      "ベリファイ",IDC_BUTTON3,191,187,99,51
+    CONTROL         "",IDC_PICT,"Static",SS_BLACKFRAME,7,248,283,35,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_OPTION DIALOGEX 0, 0, 277, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "設定"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,163,105,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,220,105,50,14
+    LTEXT           "Quatus Programmer実行ファイル",IDC_STATIC,7,8,104,8
+    EDITTEXT        IDC_EDIT1,7,20,263,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "参照",IDC_BUTTON1,222,7,48,13
+    GROUPBOX        "ケーブル",IDC_STATIC,7,42,69,59
+    CONTROL         "ByteBlasterII",IDC_RADIO_BLASTERII,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,12,57,58,10
+    CONTROL         "ByteBlasterMV",IDC_RADIO_BLASTERMV,"Button",
+                    BS_AUTORADIOBUTTON,12,77,62,10
+    GROUPBOX        "ポート",IDC_STATIC,81,42,41,59
+    CONTROL         "LPT1",IDC_RADIO_LPT1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,87,58,31,10
+    CONTROL         "LPT2",IDC_RADIO_LPT2,"Button",BS_AUTORADIOBUTTON,87,77,
+                    31,10
+    GROUPBOX        "子プロセスを",IDC_STATIC,126,42,62,59
+    CONTROL         "表示する",IDC_RADIO_VERBOSE_ON,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,130,58,45,10
+    CONTROL         "表示しない",IDC_RADIO_VERBOSE_OFF,"Button",
+                    BS_AUTORADIOBUTTON,130,77,51,10
+    GROUPBOX        "非推奨デバイス操作",IDC_STATIC,191,42,78,59
+    CONTROL         "許可する",IDC_RADIO_YES,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,196,58,45,10
+    CONTROL         "許可しない",IDC_RADIO_NO,"Button",BS_AUTORADIOBUTTON,
+                    196,77,51,10
+END
+
+IDD_LOGVIEW DIALOGEX 0, 0, 246, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "LogView"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_LOGVIEW,0,0,245,142,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041103a4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <会社名>"
+            VALUE "FileDescription", "TODO: <ファイルの説明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "qlaunch.exe"
+            VALUE "LegalCopyright", "TODO: (C) <会社名>.  All rights reserved."
+            VALUE "OriginalFilename", "qlaunch.exe"
+            VALUE "ProductName", "TODO: <製品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 932
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 32
+    END
+
+    IDD_QLAUNCH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "バージョン情報 qlaunch(&A)..."
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#pragma code_page(932)
+#include "res\qlaunch.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // 標準コンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

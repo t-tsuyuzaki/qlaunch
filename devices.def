@@ -1,0 +1,48 @@
+*カラム１＝正式型番 (Type)
+*　　　　　この型番が，デバイス選択リストに表示される
+*カラム２＝表示名称 (Name)
+*　　　　　このテキストが「対象デバイス：ウィンドウに表示される．
+*　　　　　２バイト文字と１バイト文字の混在．まずいなら厳密決定可能．
+*カラム３＝パッケージ形状 (Package)
+*　　　　　現状では未使用だが，いずれパッケージ画面表示ボタンなどができて押下した際に画面にPLCCやTQFP,DIPなどの図画表示される．
+*　　　　　これによって，ダウンロード対象物の形状で「正しいデバイスかどうか」がある程度わかる．
+*カラム４＝使用許可/不許可.  (Permission)
+*          1=許可．0=不許可．選択はできるが，ダウンロードでは即エラーが発生する
+*
+* アスタリスクはコメントとする．タブ，スペースは無視．カラム区切りはカンマのみ．
+*
+
+EPC1441PC8,JTAG,EPC1441-DIP8ピン,DIP8,0	* デバイスが古いために使用不許可．EPC1推奨
+EPC1441PI8,JTAG,EPC1441-DIP8ピン,DIP8,0	* デバイスが古いために使用不許可．EPC1推奨
+
+EPC1441LC20,JTAG,EPC1441-PLCC20ピン,PLCC20,0	* デバイスが古いために使用不許可．EPC1推奨
+EPC1441LI20,JTAG,EPC1441-PLCC20ピン,PLCC20,0	* デバイスが古いために使用不許可．EPC1推奨
+
+EPC1441TC32,JTAG,EPC1441-TQFP32ピン,TQFP32,0	* デバイスが古いために使用不許可．EPC1推奨
+EPC1441TI32,JTAG,EPC1441-TQFP32ピン,TQFP32,0	* デバイスが古いために使用不許可．EPC1推奨
+
+*
+
+EPC1PC8,JTAG,EPC1-DIP8ピン,DIP8,1		* デバイスが古いために使用不許可．EPC2推奨
+EPC1PI8,JTAG,EPC1-DIP8ピン,DIP8,1		* デバイスが古いために使用不許可．EPC2推奨
+
+EPC1LC20,JTAG,EPC1-PLCC20ピン,PLCC20,1
+EPC1LI20,JTAG,EPC1-PLCC20ピン,PLCC20,1	* 工業製品用特殊仕様
+
+*
+
+EPC2PC20,JTAG,EPC2-PLCC20ピン,PLCC20,0	* パッケージが古いために使用不許可．EPC2LC20C推奨
+
+EPC2LC20,JTAG,EPC2-PLCC20ピン,PLCC20,1
+EPC2LI20,JTAG,EPC2-PLCC20ピン,PLCC20,1	* 工業製品用特殊仕様
+
+*
+
+EPC2TC32,JTAG,EPC2-TQFP32ピン,TQFP32,1
+EPC2TI32,JTAG,EPC2-TQFP32ピン,TQFP32,1	* 工業製品用特殊仕様
+
+*
+EPCS1SI8N,ASC,EPCS1-SOIC8ピン,SOIC8,1
+EPCS4SI8N,ASC,EPCS4-SOIC8ピン,SOIC8,1
+EPCS16SI16N,ASC,EPCS16-SOIC16ピン,SOIC16,1
+EPCS64SI16N,ASC,EPCS64-SOIC16ピン,SOIC16,1
